@@ -1,4 +1,3 @@
-import { useLocale } from "next-intl";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -58,15 +57,14 @@ export default async function SubCategoryPage({
             key={product.id}
             className="bg-[#1a2035] border border-gray-700/50 rounded-xl overflow-hidden hover:border-accent-red/40 transition-all"
           >
-            {/* Product Image */}
             {product.image && (
-              <div className="relative w-full h-48 bg-[#131829]">
+              <div className="w-full h-48 bg-[#131829] relative">
                 <Image
                   src={product.image}
                   alt={product.name[lang]}
-                  fill
-                  className="object-contain p-4"
-                  sizes="(max-width: 768px) 100vw, 50vw"
+                  width={400}
+                  height={300}
+                  className="w-full h-full object-contain p-4"
                 />
               </div>
             )}
@@ -85,32 +83,32 @@ export default async function SubCategoryPage({
                 {product.description[lang]}
               </p>
 
-            {product.specs && (
-              <div className="mb-3">
-                <h3 className="text-xs font-semibold text-accent-red uppercase tracking-wide mb-1">
-                  {lang === "zh-TW" ? "產品規格" : "Specifications"}
-                </h3>
-                <p className="text-sm text-gray-500">{product.specs[lang]}</p>
-              </div>
-            )}
+              {product.specs && (
+                <div className="mb-3">
+                  <h3 className="text-xs font-semibold text-accent-red uppercase tracking-wide mb-1">
+                    {lang === "zh-TW" ? "產品規格" : "Specifications"}
+                  </h3>
+                  <p className="text-sm text-gray-500">{product.specs[lang]}</p>
+                </div>
+              )}
 
-            {product.features && (
-              <div className="mb-3">
-                <h3 className="text-xs font-semibold text-accent-red uppercase tracking-wide mb-1">
-                  {lang === "zh-TW" ? "產品特性" : "Features"}
-                </h3>
-                <p className="text-sm text-gray-500">{product.features[lang]}</p>
-              </div>
-            )}
+              {product.features && (
+                <div className="mb-3">
+                  <h3 className="text-xs font-semibold text-accent-red uppercase tracking-wide mb-1">
+                    {lang === "zh-TW" ? "產品特性" : "Features"}
+                  </h3>
+                  <p className="text-sm text-gray-500">{product.features[lang]}</p>
+                </div>
+              )}
 
-            {product.applications && (
-              <div>
-                <h3 className="text-xs font-semibold text-accent-red uppercase tracking-wide mb-1">
-                  {lang === "zh-TW" ? "適用範圍" : "Applications"}
-                </h3>
-                <p className="text-sm text-gray-500">{product.applications[lang]}</p>
-              </div>
-            )}
+              {product.applications && (
+                <div>
+                  <h3 className="text-xs font-semibold text-accent-red uppercase tracking-wide mb-1">
+                    {lang === "zh-TW" ? "適用範圍" : "Applications"}
+                  </h3>
+                  <p className="text-sm text-gray-500">{product.applications[lang]}</p>
+                </div>
+              )}
             </div>
           </div>
         ))}

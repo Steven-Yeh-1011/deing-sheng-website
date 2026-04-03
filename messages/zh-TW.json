@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "首頁",
+    "about": "關於我們",
+    "products": "產品介紹",
+    "news": "最新消息",
+    "contact": "聯絡我們"
+  },
+  "hero": {
+    "slogan": "創新・環保・品質",
+    "subtitle": "專業化工原料與設備供應商",
+    "cta": "瀏覽產品",
+    "learnMore": "了解更多"
+  },
+  "home": {
+    "aboutTitle": "關於鼎陞企業",
+    "aboutSummary": "鼎陞企業成立於2006年，致力於研發綠色環保型產品，運用各項創新材料與科學實驗帶動產品發展。專業的團隊合作、豐富的人才及深厚的經驗，不斷追求創新，提供客戶最有效率的服務。",
+    "productsTitle": "產品分類",
+    "regionsTitle": "服務地區",
+    "newsTitle": "最新消息",
+    "viewAll": "查看全部"
+  },
+  "about": {
+    "title": "關於我們",
+    "companyName": "鼎陞企業有限公司",
+    "intro": "鼎陞企業成立於2006年，初期主要代理戊烷系列產品及保溫保冷原物料。2011開始開發致力於研發綠色環保型產品，運用各項創新材料與科學實驗帶動產品發展。強而有力的研發能力，搭配材料科學實驗室及客戶實績反饋的不斷驗證，使我們更深入開發與研究達到產品最優化。專業的團隊合作、豐富的人才及深厚的經驗，不斷追求創新，提供客戶最有效率的服務，讓客戶生產環境與產品質量提升。",
+    "philosophy": "經營理念",
+    "philosophyContent": "奉行「以質量求生存，以先進求發展。」的經營理念，恪守「質量第一，用戶至上。」的服務準則。",
+    "offices": "公司據點",
+    "headquarters": "總公司",
+    "headquartersAddress": "台中市豐原區社皮路293巷33號",
+    "headquartersTel": "04-25338157",
+    "headquartersFax": "04-25338192",
+    "shanghaiOffice": "中國辦公室",
+    "shanghaiName": "奥鼎模（上海）贸易有限公司",
+    "shanghaiAddress": "上海市嘉定区叶城路1500弄1号910室",
+    "shanghaiTel": "021-59988306",
+    "established": "成立於 2006 年"
+  },
+  "products": {
+    "title": "產品介紹",
+    "categories": {
+      "adm": "ADM 系列",
+      "chemical": "化工原料",
+      "pentane": "戊烷系列",
+      "insulation": "保溫材料",
+      "equipment": "設備"
+    },
+    "viewDetail": "查看詳情",
+    "specifications": "產品規格",
+    "applications": "適用範圍",
+    "features": "產品特性"
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "formTitle": "產品諮詢",
+    "company": "公司名稱",
+    "name": "聯絡人",
+    "country": "國家",
+    "email": "E-mail",
+    "address": "聯絡地址",
+    "phone": "聯絡電話",
+    "fax": "傳真",
+    "subject": "標題",
+    "message": "訊息內容",
+    "submit": "送出",
+    "info": "聯絡資訊"
+  },
+  "news": {
+    "title": "最新消息",
+    "readMore": "閱讀更多"
+  },
+  "footer": {
+    "copyright": "© 2025 鼎陞企業有限公司 版權所有",
+    "brand": "DS ADM®",
+    "email": "service@deing-sheng.com",
+    "tel": "04-25338157",
+    "fax": "04-25338192",
+    "address": "台中市豐原區社皮路293巷33號"
+  },
+  "regions": {
+    "taiwan": "台灣",
+    "shanghai": "上海",
+    "guangzhou": "廣州",
+    "vietnam": "越南",
+    "philippines": "菲律賓"
+  }
+}

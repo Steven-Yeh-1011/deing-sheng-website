@@ -1,0 +1,88 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "slogan": "Innovation・Eco-Friendly・Quality",
+    "subtitle": "Professional Chemical Materials & Equipment Supplier",
+    "cta": "Browse Products",
+    "learnMore": "Learn More"
+  },
+  "home": {
+    "aboutTitle": "About Deing Sheng",
+    "aboutSummary": "Founded in 2006, Deing Sheng Enterprise is dedicated to developing green and eco-friendly products, leveraging innovative materials and scientific research to drive product development. With a professional team, rich talent, and deep experience, we continuously pursue innovation to provide our clients with the most efficient services.",
+    "productsTitle": "Product Categories",
+    "regionsTitle": "Service Regions",
+    "newsTitle": "Latest News",
+    "viewAll": "View All"
+  },
+  "about": {
+    "title": "About Us",
+    "companyName": "DEING SHENG TRADE CO., LTD.",
+    "intro": "Deing Sheng Enterprise was founded in 2006, initially focusing on pentane series products and thermal insulation materials. Since 2011, we have been dedicated to the research and development of green and eco-friendly products, leveraging innovative materials and scientific experiments to drive product development. Our strong R&D capabilities, combined with continuous verification through our materials science laboratory and customer feedback, enable us to further develop and optimize our products. With professional teamwork, abundant talent, and extensive experience, we continuously pursue innovation to provide customers with the most efficient services, enhancing their production environment and product quality.",
+    "philosophy": "Business Philosophy",
+    "philosophyContent": "We uphold the philosophy of \"Survival through quality, progress through advancement\" and adhere to the principle of \"Quality first, customer foremost.\"",
+    "offices": "Office Locations",
+    "headquarters": "Headquarters",
+    "headquartersAddress": "No.33, Ln. 293, Shepi Rd., Fengyuan Dist., Taichung City 420, Taiwan R.O.C.",
+    "headquartersTel": "886-4-25338157",
+    "headquartersFax": "886-4-25338192",
+    "shanghaiOffice": "China Office",
+    "shanghaiName": "Aoding Mo (Shanghai) Trading Co., Ltd.",
+    "shanghaiAddress": "Room 910, No.1, Lane 1500, Yecheng Rd., Jiading Dist., Shanghai",
+    "shanghaiTel": "021-59988306",
+    "established": "Established in 2006"
+  },
+  "products": {
+    "title": "Products",
+    "categories": {
+      "adm": "ADM Series",
+      "chemical": "Chemical Materials",
+      "pentane": "Pentane Series",
+      "insulation": "Insulation Materials",
+      "equipment": "Equipment"
+    },
+    "viewDetail": "View Details",
+    "specifications": "Specifications",
+    "applications": "Applications",
+    "features": "Features"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "formTitle": "Product Inquiry",
+    "company": "Company Name",
+    "name": "Contact Person",
+    "country": "Country",
+    "email": "E-mail",
+    "address": "Address",
+    "phone": "Phone",
+    "fax": "Fax",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Submit",
+    "info": "Contact Information"
+  },
+  "news": {
+    "title": "Latest News",
+    "readMore": "Read More"
+  },
+  "footer": {
+    "copyright": "© 2025 Deing Sheng Trade Co., Ltd. All Rights Reserved.",
+    "brand": "DS ADM®",
+    "email": "service@deing-sheng.com",
+    "tel": "886-4-25338157",
+    "fax": "886-4-25338192",
+    "address": "No.33, Ln. 293, Shepi Rd., Fengyuan Dist., Taichung City 420, Taiwan R.O.C."
+  },
+  "regions": {
+    "taiwan": "Taiwan",
+    "shanghai": "Shanghai",
+    "guangzhou": "Guangzhou",
+    "vietnam": "Vietnam",
+    "philippines": "Philippines"
+  }
+}

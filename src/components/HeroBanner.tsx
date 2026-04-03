@@ -19,7 +19,10 @@ const slides = [
     title: "ADM 系列",
     subtitle: "高溫離型 ・ 氮化硼",
     descKey: null,
-    desc: { "zh-TW": "針對高溫加工製程特別開發的專業產品", en: "Professional products specially developed for high-temperature processes" },
+    desc: {
+      "zh-TW": "針對高溫加工製程特別開發的專業產品",
+      en: "Professional products specially developed for high-temperature processes",
+    },
   },
   {
     id: 3,
@@ -27,7 +30,21 @@ const slides = [
     title: "商用設備",
     subtitle: "效率 ・ 品質 ・ 服務",
     descKey: null,
-    desc: { "zh-TW": "霜淇淋機、萬能蒸烤箱、製冰機等專業設備", en: "Soft serve machines, combi ovens, ice makers and more" },
+    desc: {
+      "zh-TW": "霜淇淋機、萬能蒸烤箱、製冰機等專業設備",
+      en: "Soft serve machines, combi ovens, ice makers and more",
+    },
+  },
+  {
+    id: 4,
+    image: "/banners/banner4.jpg",
+    title: "全球佈局",
+    subtitle: "台灣 ・ 上海 ・ 廣州 ・ 越南 ・ 菲律賓",
+    descKey: null,
+    desc: {
+      "zh-TW": "服務據點遍佈亞太地區，提供即時專業支援",
+      en: "Service locations across Asia-Pacific with real-time professional support",
+    },
   },
 ];
 
@@ -55,8 +72,9 @@ export default function HeroBanner() {
     goTo((current - 1 + slides.length) % slides.length);
   }, [current, goTo]);
 
+  // Auto-rotate every 1 second
   useEffect(() => {
-    const timer = setInterval(next, 5000);
+    const timer = setInterval(next, 1000);
     return () => clearInterval(timer);
   }, [next]);
 
@@ -82,17 +100,16 @@ export default function HeroBanner() {
             className="object-cover"
             priority={index === 0}
           />
-          {/* Overlay gradients */}
           <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f2e]/70 via-transparent to-[#0a0f2e]/30" />
           <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0a0f2e]/50" />
         </div>
       ))}
 
-      {/* Starfield overlay (CSS dots on top of image) */}
+      {/* Starfield overlay */}
       <div className="absolute inset-0 z-15 pointer-events-none">
         {Array.from({ length: 80 }).map((_, i) => {
-          const x = ((i * 73 + 17) * 13) % 1000 / 10;
-          const y = ((i * 47 + 31) * 11) % 1000 / 10;
+          const x = (((i * 73 + 17) * 13) % 1000) / 10;
+          const y = (((i * 47 + 31) * 11) % 1000) / 10;
           const size = i % 7 === 0 ? 2.5 : i % 3 === 0 ? 1.5 : 1;
           const opacity = i % 5 === 0 ? 0.6 : i % 3 === 0 ? 0.4 : 0.2;
           const twinkle = i % 4 === 0;
@@ -116,10 +133,7 @@ export default function HeroBanner() {
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
-        <h1
-          className="text-5xl md:text-7xl font-black text-white tracking-widest mb-3 drop-shadow-lg transition-all duration-500"
-          key={`title-${current}`}
-        >
+        <h1 className="text-5xl md:text-7xl font-black text-white tracking-widest mb-3 drop-shadow-lg">
           {slide.title}
         </h1>
         <p className="text-xl md:text-2xl text-gray-200 tracking-wider mb-3 font-light">
